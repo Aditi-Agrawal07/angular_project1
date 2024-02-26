@@ -1,0 +1,32 @@
+<div class="head">
+  WORLD ME SABSE BEST FAST SUTTA MARKET RESULT
+</div>
+
+@for(data of products; track products._id){
+<div class="row d-flex justify-content-center">
+
+  <div class="col-lg-6">
+    <div class="card">
+      <a class="button">Jodi</a>
+      <a class="button pnl-btn">Panel</a>
+     
+      <div class="card-body  p-4 text-center">
+        
+          <h4 class="card_heading">{{data.name}}</h4>
+     
+        <span class="card-title pb-4">{{data.first_number | number:'first'}}-{{data.second_number | number:'second'}}-{{data.third_number | number:'third'}}</span>
+     
+        <div class="time d-flex justify-content-center">
+          <h5 class="card-time me-3">{{data.open_time|date:'shortTime'}}</h5> 
+          <h5 class="card-time">{{data.close_time|date:'shortTime'}}</h5> 
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+
+</div>
+
+
+  }

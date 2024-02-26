@@ -1,0 +1,47 @@
+.card-body{
+    background-color: #fc9;
+    border-bottom: 2px solid #ff0018;
+}
+.card_heading{
+    font-size: 22px;
+    color: #00094d;
+    text-shadow: 1px 1px 2px #fff;
+    font-weight: bold;
+}
+.card-title{
+    font-size: 22px;
+    line-height: 1;
+    background: linear-gradient(#4500bf,#670009);
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.card-time{
+    font-size: 15px;
+ color:#000;
+}
+.button{
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  padding: 10px 20px;
+  background-color: #522f92;
+  color: #fff; 
+  border-radius: 10px; 
+}
+.pnl-btn{
+    right: 18px;
+    left: auto;
+}
+.button:hover{
+cursor: pointer;
+}
+.head{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #ff00a2;
+    color: #fff;
+    padding: 5px 10px;
+}
